@@ -1,0 +1,70 @@
+                                                        Retrieve Data Geospatial
+
+Background
+
+  Geospatial data is data related to geographic location or size dimensions and characteristics of the object or natural 
+and manmade or under and above the surface of the earth.
+
+  Geospatial information is a geospatial data that has been processed so that it can be used as a tool in the formulation 
+of development policy, the return decision and implementation of activities related to terrestrial space.
+
+Geospatial information can be divided into two general categories:
+
+1. The basic Geographic Information is presenting geospatial information about the object that can be seen directly, 
+or measure of physical appearance on earth and that has not changed in a relatively long time.
+2. The thematic geospatial information is a geospatial information presents one or more specific themes (related to the earth element)
+which dobuat with reference to the basic geospatial information.
+
+Basic Geospatial Information
+  Thematic Geospatial Information Geospatial information shall refer to the Association. At DSLAM thematic geospatial infirmasi manufacture,
+manufacture prohibited from changing positions and improved the accuracy of geometrical part of geographic information part of 
+basic geospatial information. Make a scale larger thematic geospatial information of the scale of basic geospatial information
+into reference.
+
+  Thematic geospatial information can be held by government agencies (central and local). Each person. Government agencies
+inside arrange thematic geospatial information should be based on the assignment of functions and powers in accordance with
+ketenetuan legislation that exists.
+
+Operations in Python
+Library pyshop we Pangil manner
+      Import Shapfile
+ 
+Class instantiation shapefile to a variable
+    Sf Reader shapefile (shp State borders)
+
+
+Sf is variable instantiation
+Shapefile is class
+Reader is a method
+Bts State shp shp is the parameter file
+So here variable is an instance of the class sf shapefile, we can menjalanakan method divariabel instance sf.
+
+method
+
+Sf is divided into two:
+1. dbf is sf.fields
+to view the attribute table sf.records ()
+fatherly retrieve all the records sf.record (n)
+
+2. shp (data objeck) is memangil row to the nth record
+calling all the records geometry sf.shapefile
+call data to the n-th row
+
+BBOX (Appeal BOX)
+A point outskirts map
+
+conclusion:
+              Geographic information is the basis of the presentation of geospatial information objects that can be seen directly, 
+            or measure of physical appearance on earth and that has not changed in a relatively long time. Geospatial data is data 
+            related to geographic location or size dimensions and characteristics of the object or natural and manmade or under and
+            above the surface of the earth
+            
+Suggestion	:
+               Retrieve learning Geospatial Data may be developed again and can bertambahn his knowledge and can share Degang people 
+            do not understand about retrieving and geospatial.
+            
+            
+Name: Kania Kustiani
+NIM: 1144038
+Class: D4 Informatics Engineering - 3D
+
