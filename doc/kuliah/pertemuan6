@@ -1,0 +1,43 @@
+EOGRAPHY INFORMATION SYSTEM
+
+Background Problem
+Basically the term geographic information system is a combination of three principal elements, namely, information systems, and geography.
+1. The system is a set of objects, ideas, and to do in achieving the common goal.
+2. Information system is a system between human and machine are integrated to present information to support the functions of the operations, management, and decision making in organizations.
+3. The use of geographic information contains information on understanding the places located on the surface of the Earth. Knowledge about the position where an object is located on the surface of the Earth and information about the description and position in the Earth's surface.
+In the use of geographic information systems, there are many among us who haven't learned how to use the data in the editor. Editor function to do the editing on the shapefile.
+
+DISCUSSION
+
+The editor is the person doing the editing or pengeditann. Editor function to do the editing on the shapefile. Contohmya delete road. In addition to the editor there is also a Writer, Writer is a method in the shape file to make the file new shp (shp and dbt)
+
+FT-steps in doing the editor as follows:
+Import shape files
+SF = shape file editor (URwar.shp)
+SF. point (16, 10, 0.0)
+SF. record (' meadow ')
+Save SF.
+SF. save (' URwar.shp ')
+a = shapefile. reoder (' URwar.shp ')
+a. recorders ()
+a. shapes () points
+a. shape () [0]
+a. shape () [0] points
+[(10, 10.0, 0)]
+
+Delete
+SF. delete (0)
+a. shapes () [0] points [(10, 10.0, 0)]
+s.f. points [4, 10, 0.0]
+SF. record (' meadow ')
+s.f. saver (' URwr.shp ')
+
+Conclusion:
+Editor function to do the editing on the shapefile. Delete like road and writer.
+
+Suggestions:
+Search resources and information from the course, so that we better understand with which we learn.
+
+Name: Kania Kustiani
+NPM: 1144038
+Class: D4 Informatics Engineering – 3D
