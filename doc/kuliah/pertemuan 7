@@ -1,0 +1,59 @@
+INTRODUCTION
+Server folder is freeware and open source application which allows us to display spatial data (maps) on the web. This application was first developed at the University of Minesotta, United States ForNet project (a project for management of natural resources) which sponsored the NASA (National Aeronautics and Space Administration). Support the NASA TerraSIP project continued with the developed for data management of land. At this time, due to its open (open source), MapServer development done by developers from different countries. A MapServer CGI programs (Common Gateway Interface). The program will be executed on the web server, and is based on a few certain parameters (especially the configuration in the file *. FOLDER) will result in a data which will then be sent to a web browser, either in the form of an image map or other forms.
+THE FEATURE SERVER FOLDER
+• Display spatial data in vector format such as: Shapefile (ESRI) (ESRI), ArcSDE, PostGIS and a variety of other vector data format using the OGR library
+• Display spatial data in the raster formats such as TIFF/GeoTIFF, EPPL7, and various other raster data formats by using the GDAL library
+• using quadtree in the indexing of spatial data, so the operations ¬ spatial operations can be done quickly
+• can be developed (customizable), with output that can be set using file ¬ template files
+• can perform the selection object based on value, based on the point, area, or a specific spatial object based
+• Support the rendering of characters in fonts TrueType
+• support the use of raster or vector data in ¬ tiled (divided into sub sections for ¬ smaller so that the process to retrieve and display the pictures can be accelerated)
+• Be able to describe the elements of a map automatically: the scale of graphics, maps and legends index map
+• Use the scale in the depiction of spatial objects
+• Be able to describe the thematic maps built using the expression logically mapun regular expression
+• to display the label of the spatial object, the label can be set up in such a way so as not to overlap
+• Configuration can be set up for on the fly via parameters specified in the URL
+• can handle various projection system on the fly
+In addition to accessing MapServer as a CGI program, we can access as the module MapScript MapServer, through various script language: PHP, Perl, Python or Java. Access the functions of the MapServer functionality through script ¬ will further simplify application development. Developers can choose the language that is most familiar.
+HOW TO INSTALL A WINDOWS DEPLOYMENT
+By using VirtualBox:
+1. Setting the parameters of 1 GB of ram and a hard drive to taste (defauld 8 GB).
+2. Setting the IP way edit the file ifcfg-etho
+The injunction is as follows:
+#vi/etc/sysconfig/network – script/ifcfg – etho
+Change onboot became yes.
+3. Do the installation dependencies folder of the server.
+To add a repository, then the perintahya is as follows:
+#rpm-http://dounload.fedora project.org/uuh puh/epel/x 86/64 – 6/epel – release – UR6.8.noarch.rpm.
+#rpm – uuh http://ellis.argeo.org/repost/6/elgis – release – 6 – 6 – 0 UR.noard.rpm
+#wget http://elgis.orgeo.org/repos/6/x 86/64 – elgis/gdal – 1.9.2.-4. el 6. x 86 – 64. rpm
+4. Exclude armadillo dar epel repo, with the following command:
+#vi/etc/yum repos. d./epel repo.
+Tambahakan: Exclude = armadillo * after gpg key line.
+5. The installation of an armadillo
+#yum install UR-3.800.2-2.elb armadillo. x 86 – 64. rpm
+6. Continue the installation depondensi:
+#yum install gpsbabel
+#yum install gdal
+#yum install mapserver
+#yum install glibc
+#yum install libpng libpng-devel
+#yum install gd gd-devel
+#yum install giflib-devel
+#yum install proj-devel
+7. Finished, check the installation path;
+#rpm-gl mapserver.
+Installing The Proxy Folder
+Proxy folder is an application to create temperoray images on the client does not request directly to the server folder so performasi better.
+How To Install:
+#yum install the python-devel python-pip
+#pip install folder proxy
+#mapproxy-util create-t base-config anu
+
+Conclusion: Map server is freeware and open source application which allows us to display spatial data (maps) on the web.
+
+Suggestion: If the theory is still less understandable, then learn it out faster in order to understand what is already dipeleajari.
+
+Name: Kania Kustiani
+NPM: 114038
+Class: D4 Informatics Engineering – 3D
