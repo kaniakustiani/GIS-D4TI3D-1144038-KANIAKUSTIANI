@@ -1,0 +1,31 @@
+BACKGROUND
+
+In the geospatial data required for processing a service to bridge between the server and its data processing. This is particularly necessary because the data will be accessed each day is a dynamic data and applications which require geospatial data definitely needs update routine that will not be possible on the client side.
+
+DISCUSSION
+
+Web service is a set of application data (databases), software (software) or a piece of software that can be accessed remotely by a variety of devices with a particular intermediary. In General, the web service can be identified by using a URL such as just the web in General.
+
+Geospatial Web services (GWS) helps users find, access, and sometimes manipulate the data of interest in dynamic web of distributed networks. GWS is designed to collect data once and update or edit it in real time. Many GIS users not adhering to the development tools and standards that facilitate the creation of dynamic GWS to access geospatial data and products. But non-expert already deploying GWS built for SUN (Fischer). This article seeks to explain briefly the geospatial web services choose and to introduce the reader to a selection of demonstration and tools that enable GWS interoperability. It describes the tools and resources that are useful for those who want to build their own geospatial services.
+
+Implementation of GWS, either for spatial analysis, geovisualizations, cell phone, or a geogrid options, enhanced by collaboration with a consortium of regional and global (e.g., the Open Geospatial Consortium (OGC), the Open Source Geospatial Foundation (open source geospatial), Open Grid Forum (OGF)), national institutions, and industry. OGC works closely with a broad spectrum of users. Many tools are used to provide the functionality described as GWS geoportals are that the service infrastructure of spatial data initiative (SDI), and scientific and social science communities.
+
+To address this, then known Geospatial Web services. Where is specified as a standard web service by the Open Geospatial Consortium (OGC). System or workings of Geospatial Web services the same more or less it works with web services in General. However, there are special things to note such as:
+
+a. the Web Browser used is usually use
+1. Open the Layer
+2. Leaflet
+3. Js
+b. Geoserver consists of:
+1. WMS
+2. the WMTS
+3. the WCF
+4. the WFS
+c. Data Store consists of:
+1. the Shapefile and others.
+
+Conclusion:
+Web service is a set of application data (databases), software (software) or a piece of software that can be accessed remotely by a variety of devices with a particular intermediary. In General, the web service can be identified by using a URL such as just the web in General. Geospatial Web services (GWS) helps users find, access, and sometimes manipulate the data of interest in dynamic web of distributed networks. GWS is designed to collect data once and update or edit it in real time.
+
+Suggestions:
+Study diligently, may be useful and add more insight regarding Web service that was studied was.
